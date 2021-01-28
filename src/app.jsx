@@ -6,13 +6,15 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <div id='wrap'>
-      <section className='content'>
-        <Info />
-      </section>
-      <section className='content works'>
-        <Projects />
-        <Skills />
-      </section>
+      <div className='container'>
+        <section className='content info'>
+          <Info />
+        </section>
+        <section className='content works'>
+          <Projects />
+          <Skills />
+        </section>
+      </div>
     </div>
   );
 }
