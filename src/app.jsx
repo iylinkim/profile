@@ -1,4 +1,4 @@
-import "./app.css";
+// import "./app.css";
 import Info from "./components/Info";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";

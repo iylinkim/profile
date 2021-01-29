@@ -1,9 +1,9 @@
 import React from "react";
 
 const Skill = ({skills}) => {
-    const {icon} = skills;
-  return <li>
-      {icon}
+    const {icon,name} = skills;
+  return <li className='skill'>
+      <p className='skill_icon'>{icon}</p>
   </li>;
 };
 

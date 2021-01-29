@@ -7,20 +7,20 @@ const Projects = props => {
       title: "Goods-maker",
       icon: <i class='fas fa-boxes'></i>,
       descriptions: "you can make your own goods",
-      bakColor: "gold",
+      bakColor: "#6D6C6D",
     },
     1: {
       title: "Youtube-clone",
       icon: <i class="fab fa-youtube"></i>,
       descriptions: "Make Youtube web better",
-      bakColor: "skyblue",
+      bakColor: "#6D6C6D",
     },
   });
 
   return (
-    <div>
-      <h3>Recent projects</h3>
-      <ul>
+    <div className='works_wrap'>
+      <h3 className='title'>Recent projects</h3>
+      <ul className='projects_list'>
         {Object.keys(projects).map(key => {
           return <Project projects={projects[key]} />;
         })}
@@ -30,4 +30,3 @@ const Projects = props => {
 };
 
 export default Projects;
-<h1>Projects</h1>;

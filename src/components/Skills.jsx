@@ -22,9 +22,9 @@ const Skills = props => {
   });
 
   return (
-    <div>
-      <h3>Skills</h3>
-      <ul>
+    <div className='works_wrap'>
+      <h3 className='title'>Skills</h3>
+      <ul className='skills_list'>
         {Object.keys(skills).map(key => {
           return <Skill skills={skills[key]} />;
         })}
